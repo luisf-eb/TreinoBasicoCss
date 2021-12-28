@@ -1,0 +1,134 @@
+* {
+    font-family: "Red Hat Display";
+}
+
+
+p {
+    font-size: 16px;
+}
+
+body{
+    background: #d6e1ff;
+}
+
+.box{
+    height: 600px;
+    width: 400px;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.box img{
+    width: 100%;
+    margin: auto;
+}
+
+.summary h2{
+    margin-top: 20px;
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.summary p{
+    text-align: center;
+    font-weight: 500;
+    color: gray;
+    line-height: 10px;
+}
+
+.plan{
+    margin: 25px auto;
+    height: 80px;
+    width: 320px;
+    background: hsl(225, 100%, 98%);
+    border-radius: 15px;
+}
+
+.plan img{
+    float: left;
+    margin: 16px 20px;
+    width: 15%;
+}
+
+.link{
+    color: rgb(84, 5, 175);
+    display: inline-block;
+    font-weight: 700;
+    position: relative;
+    bottom: 32px;
+    left: 45px;
+}
+
+.link:hover{
+    color: hsl(256, 72%, 61%);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.txt{
+    display: inline-block;
+}
+
+.txt h3{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    position: relative;
+    bottom: 5px;
+}
+
+.txt p{
+    color: gray;
+    font-weight: 500;
+    position: relative;
+    bottom: 20px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.pay{
+    text-decoration: none;
+    font-weight: 500;
+    color: whitesmoke;
+    display: inline-block;
+    background: #382ae1;
+    height: 40px;
+    width: 320px;
+    border-radius: 10px;
+    line-height: 40px;
+    margin-top: 0;
+    box-shadow: 0px 20px 25px #cccccc;
+}
+
+.pay:hover{
+    background: hsl(256, 72%, 61%);
+    transition: 0.5s;
+}
+
+.cancel{
+    display: inline-block;
+    margin-top: 33px;
+    text-decoration: none;
+    color: gray;
+    font-weight: 700;
+}
+
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
